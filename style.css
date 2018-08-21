@@ -23,11 +23,11 @@ body {
     text-align: center;
     color:#55384a;
     background-color: bisque;
-    width: 50%;
+    width: 100%;
     font-family:'Roboto';
     font-weight:300;
     font-size:3em;
-    flex
+    
 }
 
 /* General button style (reset) */
