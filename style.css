@@ -9,9 +9,10 @@ body {
     position: relative;
     margin: auto;
     width: 50%;
-    height: 30%;
+    height: 37%;
     border: 3px solid green;
-    padding: 10px;
+    padding: 20px;
+    padding-bottom: 30px;
 }
 
 #header {
@@ -26,8 +27,7 @@ body {
     width: 100%;
     font-family:'Roboto';
     font-weight:300;
-    font-size:3em;
-    
+    font-size:26px;
 }
 
 /* General button style (reset) */
@@ -50,8 +50,8 @@ body {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
     transition: all 0.3s;
-/*     width: 250px;
-    margin: 0 auto; */  
+    width: 250px;
+    margin: 0 auto; 
 }
 
 
