@@ -6,7 +6,18 @@ const getTitleBtn = document.querySelector('.btn-2c');
 
 // Listeners
 getTitleBtn.addEventListener('click', () => {
-    rank.textContent = getTitle() + ', ' + getTitle() + ', ' + getTitle() ;
+    let titlesArray = [];
+
+    for(let i = 0; i < 3; i++) {
+        let title = getTitle();
+        if (!titlesArray.includes(title)) {
+            titlesArray.push(title);
+        } else {
+            i--;
+        }
+    }
+    
+    rank.textContent = titlesArray[0] + ', ' + titlesArray[1] + ', ' + titlesArray[2] ;
 }); 
     
 

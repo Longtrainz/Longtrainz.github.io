@@ -101,6 +101,7 @@ const titles = [
     'КОРОНОВАННЫЙ МУКОМОЛ ВСЕЯ РУСИ' 
 ]
 
+
 const getRanks = () => {
     return titles;
 }
