@@ -9,6 +9,7 @@ body {
     position: relative;
     margin: auto;
     width: 50%;
+    height: 30%;
     border: 3px solid green;
     padding: 10px;
 }
@@ -16,6 +17,17 @@ body {
 #header {
     text-align: center;
     flex: 1;
+}
+
+#rank {
+    text-align: center;
+    color:#55384a;
+    background-color: bisque;
+    width: 50%;
+    font-family:'Roboto';
+    font-weight:300;
+    font-size:3em;
+    flex
 }
 
 /* General button style (reset) */
@@ -42,13 +54,6 @@ body {
     margin: 0 auto; */  
 }
 
-#rank {
-    text-align: center;
-    color:#0e0b0d;
-    font-family:'Roboto';
-    font-weight:300;
-    font-size:3em;
-}
 
 .btn:after {
 	content: '';
