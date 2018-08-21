@@ -9,10 +9,8 @@ body {
     position: relative;
     margin: auto;
     width: 50%;
-    height: 37%;
+    height: 33%;
     border: 3px solid green;
-    padding: 20px;
-    padding-bottom: 30px;
 }
 
 #header {
@@ -51,7 +49,9 @@ body {
 	-moz-transition: all 0.3s;
     transition: all 0.3s;
     width: 250px;
-    margin: 0 auto; 
+    margin: 10px auto; 
+    
+
 }
 
 
