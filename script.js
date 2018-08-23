@@ -16,7 +16,7 @@ getTitleBtn.addEventListener('click', () => {
             i--;
         }
     }
-    
+    rank.style.backgroundColor = 'bisque';
     rank.textContent = titlesArray[0] + ', ' + titlesArray[1] + ', ' + titlesArray[2] ;
 }); 
     
