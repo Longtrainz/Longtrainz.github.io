@@ -4,11 +4,17 @@ body {
 }
 
 .center {
-    display: flex;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.center {
+    /* display: flex;
     flex-direction: column;
-    margin: auto;
-    width: 50%;
-    height: 53%;
+    margin: auto; */
+    /* width: 50%;
+    height: 53%; */
     border: 3px solid green;
 }
 
@@ -20,8 +26,7 @@ body {
 #rank {
     text-align: center;
     color:#55384a;
-	/* background-color: bisque; */
-	height:90px;
+	height:50px;
     width: 100%;
     font-family:'Roboto';
     font-weight:300;
