@@ -7,6 +7,7 @@ body {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
+	grid-gap: 30px;
 }
 
 .center {
@@ -19,18 +20,18 @@ body {
 }
 
 #header {
-    text-align: center;
+	text-align: center;
 }
 
 
 #rank {
     text-align: center;
     color:#55384a;
-	height:50px;
+	height: auto;
     width: 100%;
     font-family:'Roboto';
     font-weight:300;
-    font-size:26px;
+	font-size:26px;
 }
 
 /* General button style (reset) */
