@@ -17,7 +17,9 @@ getTitleBtn.addEventListener('click', () => {
         }
     }
     rank.style.backgroundColor = 'bisque';
-    rank.textContent = titlesArray[0] + ', ' + titlesArray[1] + ', ' + titlesArray[2] ;
+    rank.textContent = titlesArray[0].toUpperCase() + ', ' 
+                        + titlesArray[1].toUpperCase() + ', ' 
+                        + titlesArray[2].toUpperCase() ;
 }); 
     
 
